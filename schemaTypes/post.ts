@@ -49,6 +49,19 @@ export default defineType({
       title: 'Body',
       type: 'blockContent',
     }),
+    defineField({
+      name: 'type',
+      title: 'Type d’article',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Gratuit', value: 'free' },
+          { title: 'Payant', value: 'paid' },
+        ],
+        layout: 'radio',
+      },
+      validation: Rule => Rule.required(),
+    }),
   ],
 
   preview: {

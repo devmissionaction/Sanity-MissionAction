@@ -48,6 +48,10 @@ export default {
     title: 'ID du prix Stripe',
     description: 'Copiez-collez ici l’identifiant du prix Stripe'
     }
+    { name: 'pdfFile', 
+      type: 'file', 
+      title: 'PDF du numéro' 
+    }
 
   ],
 }
