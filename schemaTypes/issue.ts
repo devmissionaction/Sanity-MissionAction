@@ -43,7 +43,7 @@ export default {
       ],
     },
     {
-    name: 'priceId',
+    name: 'stripePriceId',
     type: 'string',
     title: 'ID du prix Stripe',
     description: 'Copiez-collez ici l’identifiant du prix Stripe'
