@@ -8,5 +8,6 @@ import aboutPage from './aboutPage'
 import teamMember from './teamMember'
 import contactPage from './contactPage'
 import numeroPage from './numeroPage'
+import video from './video'
 
-export const schemaTypes = [post, author, category, blockContent, homePage, issue, aboutPage, teamMember, contactPage, numeroPage]
+export const schemaTypes = [post, author, category, blockContent, homePage, issue, aboutPage, teamMember, contactPage, numeroPage, video]
