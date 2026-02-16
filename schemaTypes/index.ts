@@ -12,4 +12,6 @@ import video from './video'
 import videosPage from './videosPage'
 import festivalPage from './festivalPage'
 import festivalPartner from './festivalPartner'
-export const schemaTypes = [post, author, category, blockContent, homePage, issue, aboutPage, teamMember, contactPage, numeroPage, video, videosPage, festivalPage, festivalPartner]
+import tallyId from './inscription-form'
+
+export const schemaTypes = [post, author, category, blockContent, homePage, issue, aboutPage, teamMember, contactPage, numeroPage, video, videosPage, festivalPage, festivalPartner, tallyId]
