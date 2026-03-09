@@ -22,13 +22,13 @@ export default defineType({
     }),
     defineField({
       name: 'coverImage',
-      title: 'Image de couverture',
-      type: 'image',
+      title: 'GIF de couverture',
+      type: 'file',
       options: {
-        hotspot: true, 
+        accept: 'image/gif',
       },
       validation: (Rule) => Rule.required(),
-      description: 'L\'image à afficher sur le site pour représenter la vidéo. Elle doit être au format 1:1 pour une meilleure présentation.'
+      description: 'Le GIF animé à afficher sur le site pour représenter la vidéo. Format 1:1 recommandé.'
     }),
   ],
   preview: {
